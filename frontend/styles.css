@@ -1,0 +1,54 @@
+html {
+    background-color: black;
+    color: #FFFFF0;
+    padding: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #ffffa4;
+}
+
+hr {
+    margin: 2em;
+    color: #ffffa4;
+}
+
+p, a, ul, ol, label, input, select {
+    font-family: 'Fraunces', serif;
+    font-size: large;
+}
+
+form {
+    margin: 0.5em;
+    padding: 1em;
+    background-color: #ffffa4;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+label {
+    margin-right: 1em;
+    color: black;
+}
+
+input, select {
+    background-color: #000029;
+    color: #fffff0;
+    border-style: none;
+    border-radius: 3px;
+    padding: 0.5em;
+}
+
+div.field {
+    margin-top: 1em;
+}
+
+button {
+    background-color: #8A0000;
+    border-style: none;
+    margin-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 3px;
+}

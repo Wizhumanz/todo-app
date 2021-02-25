@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Grocery App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Grocery List</h1>
+    <form id="new-item-form">
+        <div class="field">
+            <label>Item:</label>
+            <input type="text" id="new-item-name" placeholder="brie">
+        </div>
+        <div class="field">
+            <label>Quantity:</label>
+            <input type="number" id="new-item-quantity" placeholder="420">
+        </div>
+        <button><h3>Add Item</h3></button>
+    </form>
+    <hr>
+    <ul>
+        <li><p>steak</p></li>
+        <li><p>Evian</p></li>
+    </ul>
+    <script type="module" src="./app.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>
